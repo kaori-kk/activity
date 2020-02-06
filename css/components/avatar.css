@@ -1,0 +1,87 @@
+/* Your avatar CSS code here */
+body {
+  background-color: #F7F7F7;
+}
+
+.container {
+  max-width: 960px;
+  display: block;
+
+}
+
+.notifications {
+  margin : 20px;
+}
+
+.notification img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 20px;
+}
+
+.notification {
+  display: flex;
+  width: 100%;
+  border-bottom: 0.3px solid rgb(228, 232, 225);
+  background-color: white;
+  align-items: center;
+}
+
+.notification:hover .notification-actions {
+  opacity: 0.8;
+}
+
+.notification-actions {
+  opacity: 0;
+}
+
+.notification-actions a{
+  color: #7f847b;
+  font-size: 15px;
+  padding-right: 20px;
+}
+
+
+.notification-details {
+  flex-grow: 1;
+}
+
+
+.notification-details h3 {
+  font-size: 13px;
+  margin-bottom: 0;
+  color: #7f847b;
+}
+
+.notification-details p {
+  margin-top: 0;
+}
+
+.notification-details a {
+  color: #217FC2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
